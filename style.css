@@ -1,0 +1,1417 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Raleway&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(./assets/images/mac.jpg);
+    
+
+}
+.mobile-menu-icon{
+    display: none;
+}
+
+ .container{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+
+ .container .menu{
+    width: 600px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+ }
+
+ .container .menu a{
+    text-decoration: none;
+    font-family:'Raleway', sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 25px;
+ }
+
+ .container .menu a i{
+    margin-right: 5px;
+ }
+
+ .container .menu a:hover{
+    background-color: #ddd;
+    color: black;
+ }
+
+.logo a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 4px;
+    background-color: white;
+    display: inline;
+    padding: 25px;
+}
+
+.logo a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+/* CONTAINER-HOME */
+
+
+
+
+body .container-home{
+    width: 960px;
+    height: 520px;
+    margin-top: 130px;
+    
+}
+
+.container-home .home{
+   display: grid;
+   grid-template-columns: repeat(3 1fr);
+   justify-content: center;
+   align-items: center;
+   padding-right: 225px
+}
+
+
+.container-home .home h1{
+    font-size:50px;
+    color: white;
+    font-weight: 10;
+    font-family:'Raleway', sans-serif ;
+    margin-bottom: 50px;
+    
+}
+
+.container-home .home span{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 30px;
+
+}
+
+.container-home .home a{
+    font-size: 20px ;
+    color: black;
+    text-decoration: none;
+    border: 1px; 
+    background-color: #ddd;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.container-home .home a:hover{
+    background-color: whitesmoke
+}
+
+.container-home .social-media a{
+    color:#ddd;
+    padding-bottom: 45px;
+
+}
+
+.container-home .social-media a:hover{
+    color: antiquewhite;
+}
+
+
+.container-home .social-media ul{
+    list-style-type: none;
+    display: flex;
+   
+    
+}
+
+.container-home .social-media a{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: end;
+    color: gray;
+
+}.container-home .social-media{
+    width: 960px;
+    margin-top: 230px;
+    padding-left: 45px;
+}
+
+
+
+/* ABOUT-THE-COMPANY */ 
+
+.about-the-company{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    padding: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.about-the-company .text{
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    padding: 5px;
+    
+}
+.about-the-company .text h4,p{
+    font-family:'Raleway', sans-serif ;
+}
+.about-the-company .text h4{
+    font-size: 25px;
+    font-weight: 10;
+}
+
+.about-the-company .text-items{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    gap: 30px;
+    
+}
+.text-items #item-1,#item-2,#item-3,#item-4{
+    display: block;
+    width: 25%;
+    height: 500px;
+}
+
+
+
+.text-items #item-1 i{
+    font-size: 80px;
+    padding: 0 100px;
+}
+.text-items #item-1 h2{
+    font-size: 20px;
+    font-weight: 30;
+    margin: 30px;
+    padding: 0 60px;
+}
+
+.text-items #item-1 p{
+    text-align: center;
+    width: 300px;
+    line-height: 30px;
+    margin: 0 auto;
+    
+}
+
+.text-items #item-2 i{
+    font-size: 80px;
+    padding: 0 100px;
+}
+
+.text-items #item-2 h2{
+    font-size: 20px;
+    font-weight: 30;
+    margin: 30px;
+    padding: 0 75px;
+}
+
+.text-items #item-2 p{
+    text-align: center;
+    width: 300px;
+    line-height: 30px;
+    margin: 0 auto;
+}
+
+.text-items #item-3 i{
+    font-size: 80px;
+    padding: 0 100px;
+}
+
+.text-items #item-3 h2{
+    font-size: 20px;
+    font-weight: 30;
+    margin: 30px;
+    padding: 0 75px;
+}
+
+.text-items #item-3 p{
+    text-align: center;
+    width: 300px;
+    line-height: 30px;
+    margin: 0 auto;
+}
+
+.text-items #item-4 i{
+    font-size: 80px;
+    padding: 0 100px;
+}
+
+.text-items #item-4 h2{
+    font-size: 20px;
+    font-weight: 30;
+    margin: 30px;
+    padding: 0 75px;
+}
+
+.text-items #item-4 p{
+    text-align: center;
+    width: 300px;
+    line-height: 30px;
+    margin: 0 auto;
+}
+
+
+/* WE-KNOW-DESIGN */  
+
+
+.we-know-design{
+    width:100%;
+    height: 520px;
+    background-color: #f1f1f1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display:flex;
+    align-items: center;
+}
+
+.we-know-design .text-design{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+    width: 100%;
+    margin-bottom: 200px;
+
+
+}
+
+
+.we-know-design .text-design h2{
+    font-size: 25px;
+    font-weight: 5;
+    font-family: 'Raleway', sans-serif ;
+    margin-top: 20px;
+    padding-right: 450px;
+    padding-bottom: 30px;
+}
+.we-know-design .text-design p{
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif ;
+    text-align:start;
+    margin: 0 100px;
+    width: 100%;
+    padding-left:60px;
+    padding-bottom: 20px;
+    
+}
+
+.we-know-design .text-design span{
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    color: white;
+    border: 1px;
+    padding: 10px 18px;
+    cursor: pointer;
+}
+.we-know-design .text-design span:hover{
+    background-color: #bdb8b8;
+    color: black;
+}
+
+.we-know-design .text-design span{
+    margin-right: 480px;
+}
+
+
+.we-know-design .text-design span i{
+    padding-right: 7px;
+}
+
+
+.we-know-design .image-design img{
+    display: block;
+    width: 700px;
+    height: 380px;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+
+
+
+/* THE TEAM */
+
+.the-team{
+    width: 100%;
+    height: 900px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-rows: repeat(4 1fr);
+    
+}
+
+
+.the-team .content-team{
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+
+}
+
+.the-team .content-team h3{
+    font-size: 25px;
+    font-weight: 5;
+    font-family: 'Raleway', sans-serif ;
+}
+.the-team .text-team p{
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif ;
+    text-align center;
+    padding-bottom: 30px;
+}
+
+
+.the-team .the-team-cv .cv-1{
+    width:23%;
+    height: 550px;
+    box-shadow: 0px 0px 7px 6px rgba(0,0,0,0.1);
+    
+}
+.the-team .the-team-cv .cv-1 img{
+    width: 348px;
+    height: 215px;
+}
+
+.the-team .the-team-cv .cv-1 h3{
+    font-size: 30px;
+    font-family:'Raleway', sans-serif ;
+    font-weight: 5 ;
+    padding: 10px;
+    text-align: start;
+    
+}
+
+.the-team .the-team-cv .cv-1 h4{
+    font-size:15px;
+    color: gray;
+    font-weight: 3;
+    padding: 0 10px;
+    text-align: start;
+}
+
+.the-team .the-team-cv .cv-1 p{
+    font-size: 15px;
+    padding: 20px 10px;
+    color: rgb(75, 74, 74);
+    line-height: 30px;
+    text-align: start;
+
+}
+
+.the-team .the-team-cv .cv-1 button{
+    border: none;
+    background-color: #e6e4e4;
+    color: black;
+    padding: 10px 16px;
+    text-align: center;
+    width: 90%;
+    cursor: pointer;
+    
+}
+.the-team .the-team-cv .cv-1 button i{
+    padding-right: 10px;
+}
+
+.the-team .the-team-cv .cv-1 button:hover{
+    color: black;
+    background-color:#bdb8b8 ;
+}
+
+.the-team .the-team-cv{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+
+}
+.the-team .the-team-cv .cv-2{
+    width:23%;
+    height: 550px;
+    box-shadow: 0px 0px 7px 6px rgba(0,0,0,0.1);
+}
+
+.the-team .the-team-cv .cv-2 img{
+    width: 350px;
+    height: 215px;
+}
+
+.the-team .the-team-cv .cv-2 h3{
+    font-size: 30px;
+    font-family:'Raleway', sans-serif ;
+    font-weight: 5 ;
+    padding: 10px;
+    text-align: start;
+
+}
+
+.the-team .the-team-cv .cv-2 h4{
+    font-size:15px;
+    color: gray;
+    font-weight: 3;
+    padding: 0 10px;
+    text-align: start;
+}
+
+.the-team .the-team-cv .cv-2 p{
+    font-size: 15px;
+    padding: 20px 10px;
+    color: rgb(75, 74, 74);
+    line-height: 30px;
+    text-align: start;
+}
+
+.the-team .the-team-cv .cv-2 button{
+    border: none;
+    background-color: #e6e4e4;
+    color: black;
+    padding: 10px 16px;
+    text-align: center;
+    width: 90%;
+    cursor: pointer;
+}
+.the-team .the-team-cv .cv-2 button i{
+    padding-right: 10px;
+}
+
+.the-team .the-team-cv .cv-2 button:hover{
+    color: black;
+    background-color:#bdb8b8 ;
+}
+
+.the-team .the-team-cv .cv-3 img{
+    width: 350px;
+    height: 215px;
+}
+
+.the-team .the-team-cv .cv-3{
+    width:23%;
+    height: 550px;
+    box-shadow: 0px 0px 7px 6px rgba(0,0,0,0.1);
+}
+.the-team .the-team-cv .cv-3 h3{
+    font-size: 30px;
+    font-family:'Raleway', sans-serif ;
+    font-weight: 5 ;
+    padding: 10px;
+    text-align: start;
+}
+
+.the-team .the-team-cv .cv-3 h4{
+    font-size:15px;
+    color: gray;
+    font-weight: 3;
+    padding: 0 10px;
+    text-align: start;
+}
+.the-team .the-team-cv .cv-3 p{
+    font-size: 15px;
+    padding: 20px 10px;
+    color: rgb(75, 74, 74);
+    line-height: 30px;
+    text-align: start;
+}
+.the-team .the-team-cv .cv-3 button{
+    border: none;
+    background-color: #e6e4e4;
+    color: black;
+    padding: 10px 16px;
+    text-align: center;
+    width: 90%;
+    cursor: pointer;
+}
+.the-team .the-team-cv .cv-3 button i{
+    padding-right: 10px;
+}
+
+.the-team .the-team-cv .cv-3 button:hover{
+    color: black;
+    background-color:#bdb8b8 ;
+}
+
+.the-team .the-team-cv .cv-4 img{
+    width: 348px;
+    height: 215px;
+}
+
+.the-team .the-team-cv .cv-4{
+    width:23%;
+    height: 550px;
+    box-shadow: 0px 0px 7px 6px rgba(0,0,0,0.1);
+}
+
+.the-team .the-team-cv .cv-4 h3{
+    font-size: 30px;
+    font-family:'Raleway', sans-serif ;
+    font-weight: 5 ;
+    padding: 10px;
+    text-align: start;
+}
+.the-team .the-team-cv .cv-4 h4{
+    font-size:15px;
+    color: gray;
+    font-weight: 3;
+    padding: 0 10px;
+    text-align: start;
+}
+
+.the-team .the-team-cv .cv-4 p{
+    font-size: 15px;
+    padding: 20px 10px;
+    color: rgb(75, 74, 74);
+    line-height: 30px;
+    text-align: start;
+}
+
+.the-team .the-team-cv .cv-4 button{
+    border: none;
+    background-color: #e6e4e4;
+    color: black;
+    padding: 10px 16px;
+    text-align: center;
+    width: 90%;
+    cursor: pointer;
+}
+
+.the-team .the-team-cv .cv-4 button i{
+    padding-right: 10px;
+}
+
+.the-team .the-team-cv .cv-4 button:hover{
+    color: black;
+    background-color:#bdb8b8 ;
+}
+
+/* STATISTICS */
+
+
+.statistics{
+    display:inline-block;
+    text-align: center;
+    width: 100%;
+    height: 250px;
+    background-color: #616161;
+    
+}
+
+.statistics .numbers{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+}
+.numbers .stat-1{
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+    line-height: 40px;
+}
+.numbers .stat-2{
+    font-size: 30px ;
+    padding: 20px;
+    color: white;
+    line-height: 40px;
+}
+.numbers .stat-3{
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+    line-height: 40px;
+}
+.numbers .stat-4{
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+    line-height: 40px;
+}
+
+.statistics .numbers p{
+    font-size: 15px;
+}
+
+.statistics .numbers span{
+    font-size: 40px;
+}
+
+/* OUR WORK */
+
+.our-work{
+    width: 100%;
+    height: 830px;
+    background-color: white;
+}
+.our-work .our-work-text{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top: 90px;
+    
+}
+.our-work .our-work-text h3{
+    font-size: 25px;
+    font-weight: 10;
+    padding-bottom: 20px;
+}
+.our-work .our-work-text p{
+    font-size: 17px;
+    padding: 20px;
+}
+
+
+.our-work  .our-work-text .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content:center;
+    align-items:center;
+    gap:  10px;
+    width: 100%;
+  
+}
+
+.our-work  .gallery img{
+    padding:20px 15px;
+
+}
+
+
+/* OUR SKILLS */
+
+.our-skills{
+    width: 100%;
+    height: 600px;
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+
+}
+
+.our-skills .text-skills{
+    display: block;
+    width: 50%;
+    height: 360px;
+    text-align:start;
+    padding: 10px;
+}
+
+.our-skills .text-skills h3{
+    font-size: 25px;
+    font-weight: 3;
+    padding: 20px;
+}
+
+.our-skills .text-skills p{
+    padding: 20px ;
+    font-size: 15px;
+}
+
+.our-skills .percentage-skills{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 70px;
+
+
+}
+
+.our-skills .percentage-skills .camera-skill{
+    
+  margin-right:20px;
+
+}
+
+.our-skills .percentage-skills .camera-skill p i{
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+.our-skills .percentage-skills .camera-skill p{
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
+.our-skills .percentage-skills .camera-skill .gray{
+    background-color: #9e9e9e;
+    width: 700px;
+    height: 30px;
+    margin-top: 20px;
+
+}
+
+.our-skills .percentage-skills .camera-skill .gray .container-number{
+    background-color: #616161;
+    width: 600px;
+    height: 30px;
+    color: white;
+    text-align: center;
+}
+
+.our-skills .percentage-skills .web-design-skill{
+     margin-right: 20px;
+}
+
+.our-skills .percentage-skills .web-design-skill p i{
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+.our-skills .percentage-skills .web-design-skill p{
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
+
+.our-skills .percentage-skills .we-know-design .gray{
+    background-color: #9e9e9e;
+    width: 700px;
+    height: 30px;
+    margin-top: 20px;
+
+}
+
+.our-skills .percentage-skills .web-design-skill .gray{
+    background-color: #9e9e9e;
+    width: 700px;
+    height: 30px;
+    margin-top: 20px;
+
+}
+
+.our-skills .percentage-skills .web-design-skill .gray .container-number{
+    background-color: #616161;
+    width: 500px;
+    height: 30px;
+    color: white;
+    text-align: center;
+}
+
+
+
+.our-skills .percentage-skills .photoshop-skill{
+    margin-right: 20px;
+}
+
+.our-skills .percentage-skills .photoshop-skill p i{
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+.our-skills .percentage-skills .photoshop-skill p{
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
+.our-skills .percentage-skills .photoshop-skill .gray{
+    background-color: #9e9e9e;
+    width: 700px;
+    height: 30px;
+    margin-top: 20px;
+
+}
+
+.our-skills .percentage-skills .photoshop-skill .gray .container-number{
+    background-color: #616161;
+    width: 400px;
+    height: 30px;
+    color: white;
+    text-align: center;
+}
+
+
+/* PRICING */
+
+.pricing{
+    width: 100%;
+    height: 1100px;
+    background-color:#616161 ;
+}
+.pricing .pricing-text{
+    display: block;
+    text-align: center;
+    height: 30px;
+    padding-top: 120px;
+
+}
+
+.pricing .pricing-text h3{
+    font-size: 25px;
+    font-weight: 10;
+    color: white;
+}
+
+.pricing .pricing-text p{
+    color: white;
+    padding: 40px;
+    font-size: 18px;
+}
+.pricing .pricing-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    
+}
+
+.pricing  .pricing-table .basic ul{
+    width: 450px;
+    height:600px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: white;
+}
+
+
+
+.pricing  .pricing-table .basic ul .main-topic{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    padding: 45px;
+    text-align: center;
+}
+
+.pricing  .pricing-table .basic{
+    margin-top: 185px;
+    padding: 0 20px;
+}
+
+
+.pricing  .pricing-table .basic  ul li{
+    display: block;
+    width: 450px;
+    border-bottom: 1px solid #bdb8b8;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.pricing  .pricing-table .basic li h4{
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+.pricing  .pricing-table .basic li button{
+    background-color:black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 20px 30px;
+}
+
+.pricing  .pricing-table .basic li button:hover{
+    background-color:#bdb8b8;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+    
+
+.pricing  .pricing-table .basic ul .bottom-li{
+    background-color: lightgrey;
+    padding: 50px;
+}
+
+
+.pricing  .pricing-table .pro ul{
+    width: 450px;
+    height:600px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    background-color: white;
+    
+}
+
+
+
+.pricing  .pricing-table .pro ul .main-topic{
+    background-color: #f44336;
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    padding: 72px;
+    text-align: center;
+}
+
+.pricing  .pricing-table .pro{
+    margin-top: 230px;
+    height: 600px;
+    
+    
+}
+
+.pricing  .pricing-table .pro  ul li{
+    display: block;
+    width: 450px;
+    border-bottom: 1px solid #bdb8b8;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+}
+
+.pricing  .pricing-table .pro li h4{
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+.pricing  .pricing-table .pro li button{
+    background-color:black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 20px 30px;
+}
+
+.pricing  .pricing-table .pro li button:hover{
+    background-color:#bdb8b8;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.pricing  .pricing-table .pro ul .bottom-li{
+    background-color: lightgrey;
+    padding: 50px;
+}
+
+
+.pricing  .pricing-table .premium ul{
+    width: 450px;
+    height:600px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: white;
+}
+
+.pricing  .pricing-table .premium ul .main-topic{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    padding: 45px;
+    text-align: center;
+}
+
+.pricing  .pricing-table .premium{
+    margin-top: 185px;
+    padding: 0 20px;
+}
+
+.pricing  .pricing-table .premium  ul li{
+    display: block;
+    width: 450px;
+    border-bottom: 1px solid #bdb8b8;
+    text-align: center;
+    padding:20px;
+    position: relative;
+}
+
+
+.pricing  .pricing-table .premium li h4{
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+
+.pricing  .pricing-table .premium li button{
+    background-color:black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 20px 30px;
+}
+
+.pricing  .pricing-table .premium li button:hover{
+    background-color:#bdb8b8;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.pricing  .pricing-table .premium ul .bottom-li{
+    background-color: lightgrey;
+    padding: 50px;
+}
+
+
+/* CONTACT */
+
+.contact{
+    width: 100%;
+    height: 2000px;
+    background-color: #f1f1f1;
+}
+
+.contact .contact-text{
+    display: block;
+    text-align: center;
+    padding-top:  130px;
+}
+
+.contact .contact-text h3{
+    font-size: 25px;
+    font-weight: 2;
+    padding-bottom: 30px;
+}
+
+.contact .contact-text p{
+    font-size: 18px;
+    
+}
+
+.contact .contact-info {
+    display:inline-block;
+    text-align: start;
+    line-height: 60px;
+    margin: 50px 30px;
+
+}
+
+.contact .contact-info p i{
+    font-size: 33px;
+    padding-right: 30px;
+
+}
+
+.contact .form{
+    display: block;
+    text-align: start;
+    
+}
+.contact .form input{
+    display: block;
+    border: 1px solid #ccc;
+    width: 98%;
+    height: 50px;
+    margin: 20px;
+    
+    
+}
+
+.contact .form button{
+    width: 170px;
+    height: 40px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    margin: 18px;
+    cursor: pointer;
+}
+
+.contact .form button:hover{
+    background-color:#ccc ;
+    color: black ;
+    border: none;
+}
+
+.contact .form button i{
+    padding-right: 8px;
+}
+
+.contact .image-bottom{
+    width: 100%;
+    margin-top: 200px;
+    padding: 0 20px;
+    filter: grayscale(75%);
+   
+}
+
+/* FOOTER*/
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+
+.footer .to-the-top{
+    display: block;
+    text-align: center;
+    padding-top:90px;
+}
+
+.footer .to-the-top button{
+    width: 120px;
+    height: 40px;
+}
+
+.footer .to-the-top button:hover{
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+
+}
+
+.footer .to-the-top button i{
+    padding-right: 10px;
+    
+}
+
+.footer .social-media-footer ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    font-size: 25px;
+    margin-top: 20px;
+  
+}
+
+.footer .social-media-footer ul li a{
+    color: white;
+    margin:5px;
+    font-size: 23px;
+}
+
+.footer .social-media-footer  a:hover{
+   color: #9e9e9e;
+}
+
+
+/* MOBILE VERSION*/
+
+@media(max-width: 576px) {
+    .mobile-menu-icon{
+ display: block;
+}
+body{
+    background-position: center;
+   
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container .menu{
+    display:none;
+}
+
+
+/*CONTAINER HOME*/
+
+.container-home{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.container-home .home{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+
+.container-home .home h1{
+    font-size: 29px;
+    margin: 0 20px;
+    width: 100%;
+
+}
+.container-home .home span{
+    font-size: 14px;
+    width: 100%;
+    margin: 40px 20px;
+    
+    
+}
+
+.container-home .home p a{
+    font-size: 10px;
+    margin: 0 20px;
+}
+.container-home .social-media {
+    width: 100%;
+    margin-top:200px;
+    margin-left: 25px;
+
+}
+
+
+/*ABOUT THE COMPANY*/
+
+.about-the-company{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    
+   
+   
+}
+
+.about-the-company .text{
+    display: block;
+    text-align: center;
+    height: auto;
+}
+
+
+.about-the-company .text-items{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+      
+}
+
+.text-items #item-1{
+    display: block;
+    width: 100%;
+    text-align: center;   
+    margin-top: 50px;
+}
+
+.text-items #item-1 i{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+ }
+.text-items #item-1 h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.text-items #item-1 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.text-items #item-2{
+    display: block;
+    width: 100%;
+    text-align: center;
+   
+
+}
+.text-items #item-2 i{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.text-items #item-2 h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.text-items #item-2 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.text-items #item-3{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.text-items #item-3 i{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.text-items #item-3 h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.text-items #item-3 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.text-items #item-4{
+    display: block;
+    width: 100%;
+    text-align: center;
+   
+}
+}
+.text-items #item-4 i{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.text-items #item-4 h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.text-items #item-4 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+
+/* WE KNOW DESIGN*/
+
+
+
+
+
+
+
+
+}
+
+
